@@ -7,7 +7,7 @@ body {
 
 #container {
     background: #fff;
-    width: 600px;
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,5 +17,12 @@ body {
 
 #bg {
     width: 40%;
+    height: 65vh;
     background: url("hegy.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
