@@ -33,6 +33,25 @@ form {
     width: 60%;
     float: right;
     box-sizing: border-box;
-    padding: 20px;
     text-align: center;
+}
+
+
+form h2 {
+    font-weight: 400;
+}
+
+
+form input, button { 
+    display: block;
+    width: 90%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 85%;
+    border: 1px solid #d9d9d9;
 }
