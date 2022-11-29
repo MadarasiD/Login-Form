@@ -18,7 +18,7 @@ body {
 
 #bg {
     width: 40%;
-    height: 650px;
+    height: 520px;
     background: url("hegy.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,4 +54,17 @@ form input, button {
 form input {
     width: 85%;
     border: 1px solid #d9d9d9;
+}
+
+.input-container {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+}
+
+#btn {
+    background:  #337ef5;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
